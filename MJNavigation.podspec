@@ -30,7 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MJNavigation/Classes/**/*'
+#  s.source_files = 'MJNavigation/Classes/**/*'
+  s.subspec 'MJAlertView' do |ss|
+      ss.source_files = 'MJNavigation/Classes/MJAlertView/*.{h,m}'
+  end
   
   # s.resource_bundles = {
   #   'MJNavigation' => ['MJNavigation/Assets/*.png']
