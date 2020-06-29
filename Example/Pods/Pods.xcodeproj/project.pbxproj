@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01CF24B024A989CB00672563 /* MJAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CF24AE24A989CB00672563 /* MJAlertView.m */; };
+		01CF24B124A989CB00672563 /* MJAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 01CF24AF24A989CB00672563 /* MJAlertView.h */; };
 		33D21B4D1E452AE9BA3D683EB0D8670E /* MJNavigation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01EB006F5E0ADB1AE941133B159D8657 /* MJNavigation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4419DC9918AA9038C630CEB82B0981A3 /* Pods-MJNavigation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9DC2263F4E3C318CB65E615BB90FE9 /* Pods-MJNavigation_Example-dummy.m */; };
 		47B9A83F698C650C25EF4D737A98D94C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		56D893E127F5D3EEC959849D18716732 /* MJNavigation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C74365BBDF058DF97EF95BAB85E52F /* MJNavigation-dummy.m */; };
-		5D5924C6E8AF0BAEBC444753F51018F7 /* MJAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D0267D80FAE6420DF861E2B4C5F66 /* MJAlertView.m */; };
-		6E30C50DA8CEE5B05C53EE227D80E27B /* MJAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD77C930D617D9BACB895B70CC515BD /* MJAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7015D01C7A590507B986ADDBCEF7D8D8 /* Pods-MJNavigation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1392ADF0B90C80DC9243F617343CC9DC /* Pods-MJNavigation_Tests-dummy.m */; };
 		7ABDD58E13C2544F5DB732EAE93043EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C01FC16968EDC171AF73AB33C28091BB /* Pods-MJNavigation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DA9F5F3596BC36CCE99AE333A9D773 /* Pods-MJNavigation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,19 +38,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01CF24AE24A989CB00672563 /* MJAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJAlertView.m; sourceTree = "<group>"; };
+		01CF24AF24A989CB00672563 /* MJAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJAlertView.h; sourceTree = "<group>"; };
 		01EB006F5E0ADB1AE941133B159D8657 /* MJNavigation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJNavigation-umbrella.h"; sourceTree = "<group>"; };
 		09C17B3AAA6F7F2EC657630C895BA2F2 /* MJNavigation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJNavigation-prefix.pch"; sourceTree = "<group>"; };
 		0C9DC2263F4E3C318CB65E615BB90FE9 /* Pods-MJNavigation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJNavigation_Example-dummy.m"; sourceTree = "<group>"; };
 		1392ADF0B90C80DC9243F617343CC9DC /* Pods-MJNavigation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJNavigation_Tests-dummy.m"; sourceTree = "<group>"; };
-		15A4293EA2080E7D05895461FD6CF850 /* MJNavigation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MJNavigation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		186C00F8AF48F702CAB957E041080F8C /* Pods_MJNavigation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MJNavigation_Tests.framework; path = "Pods-MJNavigation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A4293EA2080E7D05895461FD6CF850 /* MJNavigation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MJNavigation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		186C00F8AF48F702CAB957E041080F8C /* Pods_MJNavigation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJNavigation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC12DF211F005935CE7C2DDA632FF11 /* Pods-MJNavigation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJNavigation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		26C74365BBDF058DF97EF95BAB85E52F /* MJNavigation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJNavigation-dummy.m"; sourceTree = "<group>"; };
 		2AB7A340A6A42E98AD03BEC230D8C797 /* Pods-MJNavigation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJNavigation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		305F7AAF5AE8F9A7D1935FD494AD4319 /* Pods-MJNavigation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJNavigation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34190D37847D7CE81FB489B7766C95B5 /* MJNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJNavigation.debug.xcconfig; sourceTree = "<group>"; };
-		3F5D0267D80FAE6420DF861E2B4C5F66 /* MJAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJAlertView.m; path = MJNavigation/Classes/MJAlertView/MJAlertView.m; sourceTree = "<group>"; };
 		54630A78E6D223B15E35307FBADD8F5A /* Pods-MJNavigation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJNavigation_Example-Info.plist"; sourceTree = "<group>"; };
 		5A72BAF129BBF3D48E9093C23E15DEC9 /* Pods-MJNavigation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJNavigation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5C2E66CF8C00510BBF134031DBAA38BC /* MJNavigation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJNavigation-Info.plist"; sourceTree = "<group>"; };
@@ -58,19 +59,18 @@
 		6F6445346354386B9FE114A6D7C87E45 /* MJNavigation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJNavigation.modulemap; sourceTree = "<group>"; };
 		70F06520A163948A45FD00281DBCD1F5 /* MJNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJNavigation.release.xcconfig; sourceTree = "<group>"; };
 		787C23E8FC67062DA8F6AB2CA9AF3CA8 /* Pods-MJNavigation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MJNavigation_Tests.modulemap"; sourceTree = "<group>"; };
-		94F348EA3C7DDF6172A14B47941CFA0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		94F348EA3C7DDF6172A14B47941CFA0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9B24A74B3C3E5D63F18A3A3B8FDE061E /* Pods-MJNavigation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJNavigation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C175EBB346B57EC0F98E51FEA4E560EB /* Pods-MJNavigation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MJNavigation_Example.modulemap"; sourceTree = "<group>"; };
 		D2BEAFE1D8C49EC27E8863AED1DD98ED /* Pods-MJNavigation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJNavigation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D6B23AAC8D1F461347CAF145C5996ABF /* MJNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJNavigation.framework; path = MJNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B23AAC8D1F461347CAF145C5996ABF /* MJNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8DA9F5F3596BC36CCE99AE333A9D773 /* Pods-MJNavigation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJNavigation_Example-umbrella.h"; sourceTree = "<group>"; };
 		EABBFD0255859BE304764CCE5A51777B /* Pods-MJNavigation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJNavigation_Tests-umbrella.h"; sourceTree = "<group>"; };
-		ECD77C930D617D9BACB895B70CC515BD /* MJAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJAlertView.h; path = MJNavigation/Classes/MJAlertView/MJAlertView.h; sourceTree = "<group>"; };
 		F1256D2FD604E6BA6EAEAF9BA9FF2744 /* Pods-MJNavigation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJNavigation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F6F393FB32E35E1789CE6D1459929D62 /* Pods-MJNavigation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJNavigation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F7A554CAF3017660CDE5F9FE91C4CF58 /* Pods_MJNavigation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MJNavigation_Example.framework; path = "Pods-MJNavigation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F93E6A32DE3DB1AC96783C5F9ACC6812 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F7A554CAF3017660CDE5F9FE91C4CF58 /* Pods_MJNavigation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJNavigation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93E6A32DE3DB1AC96783C5F9ACC6812 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FA3D8C6AD0DA1A51D53010D106ACF1F7 /* Pods-MJNavigation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJNavigation_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,11 +102,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01CF24AD24A989CB00672563 /* MJAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				01CF24AE24A989CB00672563 /* MJAlertView.m */,
+				01CF24AF24A989CB00672563 /* MJAlertView.h */,
+			);
+			name = MJAlertView;
+			path = MJNavigation/Classes/MJAlertView;
+			sourceTree = "<group>";
+		};
 		0751388DAAFEECDEF77276F7EEE7A593 /* MJNavigation */ = {
 			isa = PBXGroup;
 			children = (
-				ECD77C930D617D9BACB895B70CC515BD /* MJAlertView.h */,
-				3F5D0267D80FAE6420DF861E2B4C5F66 /* MJAlertView.m */,
 				C0FF75E54A7FE2F23383148A6AD36A92 /* Pod */,
 				5AF09CDAD92186BEDF467759C8A5DF78 /* Support Files */,
 			);
@@ -157,6 +165,7 @@
 		C0FF75E54A7FE2F23383148A6AD36A92 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				01CF24AD24A989CB00672563 /* MJAlertView */,
 				F93E6A32DE3DB1AC96783C5F9ACC6812 /* LICENSE */,
 				15A4293EA2080E7D05895461FD6CF850 /* MJNavigation.podspec */,
 				94F348EA3C7DDF6172A14B47941CFA0A /* README.md */,
@@ -249,8 +258,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E30C50DA8CEE5B05C53EE227D80E27B /* MJAlertView.h in Headers */,
 				33D21B4D1E452AE9BA3D683EB0D8670E /* MJNavigation-umbrella.h in Headers */,
+				01CF24B124A989CB00672563 /* MJAlertView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,7 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D5924C6E8AF0BAEBC444753F51018F7 /* MJAlertView.m in Sources */,
+				01CF24B024A989CB00672563 /* MJAlertView.m in Sources */,
 				56D893E127F5D3EEC959849D18716732 /* MJNavigation-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,8 +504,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
