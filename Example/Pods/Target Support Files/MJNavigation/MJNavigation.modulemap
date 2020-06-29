@@ -1,0 +1,6 @@
+framework module MJNavigation {
+  umbrella header "MJNavigation-umbrella.h"
+
+  export *
+  module * { export * }
+}

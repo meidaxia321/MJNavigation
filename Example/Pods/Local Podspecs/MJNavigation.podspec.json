@@ -1,0 +1,22 @@
+{
+  "name": "MJNavigation",
+  "version": "0.1.0",
+  "summary": "A short description of MJNavigation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/meidaxia321/MJNavigation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "meidaxia321": "2994355324@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/meidaxia321/MJNavigation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MJNavigation/Classes/**/*"
+}

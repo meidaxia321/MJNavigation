@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MJNavigation_Example' do
+  pod 'MJNavigation', :path => '../'
+
+  target 'MJNavigation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

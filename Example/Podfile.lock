@@ -1,0 +1,16 @@
+PODS:
+  - MJNavigation (0.1.0)
+
+DEPENDENCIES:
+  - MJNavigation (from `../`)
+
+EXTERNAL SOURCES:
+  MJNavigation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MJNavigation: 31ec5d6c490d945c2e935554b01e7344d9146449
+
+PODFILE CHECKSUM: 958cb33b4bba562ea37fb71a5b4cc287f6641981
+
+COCOAPODS: 1.9.1
