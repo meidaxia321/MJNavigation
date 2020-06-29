@@ -34,6 +34,11 @@ TODO: Add long description of the pod here.
   s.subspec 'MJAlertView' do |ss|
       ss.source_files = 'MJNavigation/Classes/MJAlertView/*.{h,m}'
   end
+#  ViewModel 文件夹 ViewModel里面的.m文件会引用到Api里面文件的头文件，所以要写在Api下面，并且要添加依赖
+#  s.subspec 'ViewModel' do |ss|
+#      ss.source_files = 'MJNavigation/Classes/ViewModel/*.{h,m}'
+#      ss.dependency 'MJNavigation/MJAlertView'
+#  end
   
   # s.resource_bundles = {
   #   'MJNavigation' => ['MJNavigation/Assets/*.png']
